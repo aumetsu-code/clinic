@@ -629,3 +629,19 @@ footer small {
 .small {font-size: 0.75em;}
 .large {font-size: 2em; letter-spacing: 0.1em;}
 .block {display: block !important;}
+
+
+#logo img {
+	width: 260px;
+	height: auto;
+}
+
+header {
+	position: relative;
+	padding-top: 20px;
+}
+
+#menubar_hdr {
+	top: 20px;
+	right: 20px;
+}
