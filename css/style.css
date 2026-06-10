@@ -302,7 +302,7 @@ body.home header {
 
 		/*２カラムを囲むブロック*/
 		.list-half .list {
-			gap: 2rem;
+			gap: 4rem;
 			flex-direction: row;			/*子要素を横並びにする*/
 			justify-content: space-between;	/*並びかたの種類の指定*/
 			align-items: center;			/*垂直揃えの指定。天地中央に配置されるように。*/
@@ -310,7 +310,7 @@ body.home header {
 		
 		/*画像ブロック共通*/
 		.list-half .image-l, .list-half .image-r {
-			width: 50%;			/*画像の幅*/
+			width: 40%;			/*画像の幅*/
 		}
 		
 		/*画像を左に配置する場合*/

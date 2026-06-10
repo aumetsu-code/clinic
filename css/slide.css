@@ -6,10 +6,11 @@
 ---------------------------------------------------------------------------*/
 /*3枚の画像を囲むブロック*/
 .slide {
-	position: relative;
-	overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  width: 70%;
+  margin: 0 auto;
 }
-
 /*３枚の画像の共通設定*/
 .slide .slide {
 	position: absolute;right: 0px;top: 0px;
