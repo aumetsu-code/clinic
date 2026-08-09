@@ -645,3 +645,20 @@ header {
 	top: 20px;
 	right: 20px;
 }
+.profile-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:40px;
+    margin-bottom:50px;
+}
+
+.profile-row .text{
+    flex:1;
+}
+
+.profile-img{
+    width:220px;
+    flex-shrink:0;
+    margin-left:60px;
+}
