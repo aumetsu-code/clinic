@@ -263,6 +263,12 @@ body.home header {
 	gap: 5vw;	/*ブロックの間に空けるスペース*/
 	text-align: center;	/*ブロック内をセンタリング*/
 }
+@media screen and (max-width: 899px) {
+   .list-grid {
+      grid-template-columns: 1fr;
+      gap: 30px;
+   }
+}
 
 /*ボックス内のfigure画像*/
 .list-grid .list figure {
@@ -805,4 +811,60 @@ section {
     .list-half .small-image {
         width: 32%;
     }
+}
+
+/* 当院の理念の下の余白を縮める */
+.bg1 section {
+    padding-bottom: 20px;
+}
+
+/* 利用をご検討の方へ側の上の余白を縮める */
+section:has(#acsess) {
+    padding-top: 20px;
+}
+
+.bg1 {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+
+@media screen and (max-width: 899px) {
+    .list-grid > p.c {
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+
+    .list-grid > p.c h2 {
+        white-space: nowrap;
+        margin: 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .list-grid > p.c h2 {
+        white-space: nowrap;
+    }
+}
+
+.profile-slide {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#clinic {
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#acsess {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 0 !important;
+}
+#acsess + p + h2 {
+    margin-top: -40px !important;
 }
