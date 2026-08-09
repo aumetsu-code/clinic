@@ -686,3 +686,112 @@ header {
     height: auto;
     display: block;
 }
+
+@media screen and (min-width:900px) {
+    .list-half .small-image {
+        width: 32%;
+    }
+}
+
+/* ===== 全体の左右余白 ===== */
+section {
+    padding: 60px 20px;
+}
+
+@media screen and (min-width: 900px) {
+    section {
+        padding: 80px 40px;
+    }
+}
+
+/* ===== 中央寄せ＆最大幅 ===== */
+.list-half,
+.text {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* ===== 写真サイズ制御（重要） ===== */
+.image-r {
+    width: 40%;
+}
+
+.image-r img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 学歴・活動の写真は少し小さく */
+.small-image {
+    width: 30%;
+}
+
+/* ===== スマホは縦並び ===== */
+@media screen and (max-width: 899px) {
+    .list-half .list {
+        flex-direction: column;
+    }
+
+    .image-r,
+    .small-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+/* ===== 全体の左右余白 ===== */
+section {
+    padding: 60px 20px;
+}
+
+@media screen and (min-width: 900px) {
+    section {
+        padding: 80px 40px;
+    }
+}
+
+/* ===== 中央寄せ＆最大幅 ===== */
+.list-half,
+.text {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* ===== 写真サイズ制御（重要） ===== */
+.image-r {
+    width: 40%;
+}
+
+.image-r img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 学歴・活動の写真は少し小さく */
+.small-image {
+    width: 30%;
+}
+
+/* ===== スマホは縦並び ===== */
+@media screen and (max-width: 899px) {
+    .list-half .list {
+        flex-direction: column;
+    }
+
+    .list-half .image-r {
+        width: 60%;
+        margin: 20px auto 0;
+    }
+
+    .list-half .small-image {
+        width: 50%;
+        margin: 20px auto 0;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .list-half .small-image {
+        width: 32%;
+    }
+}
