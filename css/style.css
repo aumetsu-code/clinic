@@ -873,3 +873,9 @@ section:has(#acsess) {
     padding-top: 0 !important;
     margin-top: -90px;
 }
+
+@media screen and (max-width: 899px) {
+    .language-fee {
+        margin-top: -50px;
+    }
+}
