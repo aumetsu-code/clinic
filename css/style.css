@@ -780,6 +780,16 @@ section {
         align-items: flex-start;
     }
 
+    .list-half .list .text {
+        width: 100%;
+        text-align: left !important;
+    }
+
+    .list-half .list .text h2,
+    .list-half .list .text p {
+        text-align: left !important;
+    }
+
     .list-half .image-r {
         width: 60%;
         margin: 20px auto 0;
