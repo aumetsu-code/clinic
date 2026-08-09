@@ -870,11 +870,11 @@ section:has(#acsess) {
 }
 
 .language-fee {
-    margin-top: -30px !important;
+    margin-top: 0 !important;
 }
 
 @media screen and (max-width: 899px) {
     .language-fee {
-        margin-top: -50px !important;
+        margin-top: -20px !important;
     }
 }
