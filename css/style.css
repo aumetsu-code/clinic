@@ -868,3 +868,8 @@ section:has(#acsess) {
 #acsess + p + h2 {
     margin-top: -40px !important;
 }
+
+.language-fee {
+    padding-top: 0 !important;
+    margin-top: -90px;
+}
