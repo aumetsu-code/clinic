@@ -257,30 +257,30 @@ body.home header {
 .list-grid .list * {margin: 0;padding: 0;}
 
 /*ブロック全体を囲むブロック*/
+
+.list-grid .list * {
+    margin: 0;
+    padding: 0;
+}
+
+/*ブロック全体を囲むブロック*/
 .list-grid {
-	display: grid;
-    grid-template-columns: repeat(3, 1fr);	/*3列にする指定。4列にしたければrepeat(4, 1fr)とする。*/
-	gap: 5vw;	/*ブロックの間に空けるスペース*/
-	text-align: center;	/*ブロック内をセンタリング*/
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5vw;
+    text-align: center;
 }
+
 @media screen and (max-width: 899px) {
-   .list-grid {
-      grid-template-columns: 1fr;
-      gap: 30px;
-   }
+    .list-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
 }
 
-/*ボックス内のfigure画像*/
-.list-grid .list figure {
-	margin-bottom: 0.5rem;
-}
 
-/*ボックス内のp（文章）*/
-.list-grid p {
-	font-weight: normal;
-	font-size: 0.85rem;	/*文字サイズ85%*/
-	text-align: left;	/*文章は左寄せで。センタリングがよければこの１行を削除。*/
-}
+
+
 
 
 /*2カラムブロック（※900px未満では１カラム）スタッフ紹介ページで使用。
